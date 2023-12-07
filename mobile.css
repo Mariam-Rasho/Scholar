@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  max-width: 100vw;
+  padding: 5px 10px !important;
+  overflow: hidden;
+}
+
+.hero-body {
+  border-bottom-right-radius: 100px;
+}
+
+.owl-prev span,
+.owl-next span {
+  width: 41px;
+  height: 41px;
+  line-height: 1;
+  font-size: 33px;
+}
+
+.item .info-img .level-left {
+  padding-top: 7px;
+}
+
+.input-search {
+  display: none;
+}
+
+.hero-body .item,
+.about .columns,
+.tabs,
+.counter-up,
+.teams,
+.testimonials,
+.events,
+#Courses {
+  max-width: 100vw;
+}
+
+.hero-body .item .image img,
+.hero-body .item .image img .info-img {
+  height: 70vh;
+  width: 100vw;
+}
+
+.info-img {
+  position: absolute;
+  width: 70%;
+  top: 10%;
+}
+
+.owl-nav {
+  transform: rotate(0deg);
+  right: 32%;
+  bottom: 33px;
+}
+
+.owl-prev span,
+.owl-next span {
+  transform: rotate(0deg);
+  transition: all 0.7s;
+}
+
+.is-divider {
+  display: none;
+}
+
+.section {
+  padding-left: 0;
+  padding-right: 0;
+  margin: 10px auto;
+}
+
+#Services .card,
+#about-us,
+.about .columns {
+  margin: 70px auto;
+}
+
+.abt-accord {
+  margin: 0 auto;
+}
+
+.cards .card-image {
+  left: 108px;
+  bottom: 78%;
+  width: 124px;
+  padding: 40px !important;
+}
+
+.cards-team .card,
+.teams {
+  margin: 150px auto;
+}
+
+.testimonials,
+.events,
+.contact-us {
+  border-radius: 50px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.item {
+  max-width: 100%;
+}
+
+.testimonials .owl-nav {
+  bottom: -29px;
+  right: 31%;
+}
+
+.event-card img {
+  max-width: 200px;
+  left: 38%;
+  top: 52%;
+}
+
+.progress-circle {
+  position: fixed;
+  bottom: 23px;
+  padding: 1px 4px;
+  right: 47px;
+  z-index: 2;
+}
+
+.about .columns {
+  border-radius: 0;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.testimonials .content {
+  padding-top: 50px !important;
+}

@@ -1,0 +1,360 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-y: hidden;
+}
+
+.navbar .is-divider {
+    width: 1px;
+    height: 40%;
+}
+
+.form textarea::placeholder,
+.form-content input::placeholder {
+    color: white;
+    vertical-align: middle;
+}
+
+.navbar {
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    /* font-size: larger; */
+    overflow-y: hidden;
+}
+
+.navbar-end .navbar-item:hover {
+    background-color: transparent;
+}
+
+.image img,
+.form {
+    border-radius: 40px;
+}
+
+.info-img {
+    position: absolute;
+    width: 50%;
+    top: 30%;
+    left: 10%;
+}
+
+.has-rounded {
+    border-radius: 50%;
+}
+
+.hero-body {
+    border-bottom-right-radius: 200px;
+}
+
+.item {
+    max-width: 90%;
+}
+
+.owl-prev span,
+.owl-next span {
+    width: 50px;
+    height: 50px;
+    line-height: 40px;
+    font-size: 40px;
+    display: inline-block;
+    color: #7a6ad8;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    opacity: 1;
+    transform: rotate(90deg);
+    transition: all 0.7s;
+}
+
+.owl-prev span:hover,
+.owl-next span:hover {
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.629);
+}
+
+.owl-carousel .owl-nav button.owl-prev:hover,
+.owl-carousel .owl-nav button.owl-next:hover,
+.owl-carousel button.owl-dot:hover {
+    background: none;
+}
+
+.owl-nav {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(90deg);
+    right: 18px;
+    right: -10px;
+    bottom: 130px;
+}
+
+.card,
+.course,
+.course img,
+.about .column {
+    border-radius: 8%;
+}
+
+.about .content .button,
+.card .content .button {
+    border: none;
+    background-color: #fff;
+}
+
+.cards .card-image {
+    border-radius: 50%;
+    position: absolute;
+    left: 70%;
+    bottom: 70%;
+    width: 175px;
+    padding: 20px 23px;
+}
+
+.card .image,
+.card .content .button {
+    transition: all 0.5s;
+}
+
+.card:hover .image {
+    transform: translateY(-10px);
+}
+
+.accordion .ac-item .ac-title .has-round {
+    border-radius: 50%;
+}
+
+.accord {
+    border-radius: 10%;
+}
+
+.accordionjs .acc_section.acc_active>.acc_head {
+    color: #7a6ad8;
+}
+
+.ac-title .fa-minus {
+    display: none;
+}
+
+.accordionjs .acc_section.acc_active .fa-minus {
+    display: block;
+}
+
+.accordionjs .acc_section.acc_active .fa-plus {
+    display: none;
+}
+
+.course {
+    overflow: hidden;
+}
+
+.course:hover .course-info :nth-child(2) {
+    transform: scale(1.2);
+}
+
+.course .content h2 {
+    transition: all 0.9s;
+}
+
+.course:hover .content h2 {
+    color: #7a6ad8;
+}
+
+.course .course-info {
+    position: absolute;
+    width: 100%;
+    top: 11px;
+    left: 18px;
+}
+
+.cource-name {
+    border-radius: 40px;
+}
+
+.course .course-info .price-cource {
+    border-bottom-left-radius: 70%;
+    transition: all 0.9s;
+}
+
+.counter-up {
+    border-radius: 0 300px 300px 0;
+}
+
+.cards-team .card .social-icons a {
+    border-radius: 50%;
+    padding: 6px 10px;
+    color: #7a6ad8;
+    background-color: #fff;
+    transition: background-color 0.7s;
+}
+
+.cards-team .card .social-icons a:hover {
+    background-color: #7a6ad8;
+}
+
+.cards-team .card .social-icons a i {
+    transition: color 0.7s;
+}
+
+.cards-team .card .social-icons a:hover i {
+    color: #fff;
+}
+
+.cards-team .card-image {
+    width: 100%;
+    margin: 0 auto 40px;
+    position: absolute;
+    bottom: 40%;
+    mix-blend-mode: darken;
+    transition: all 0.3s;
+}
+
+.cards-team .card:hover .card-image {
+    transform: translateY(-10px);
+}
+
+#testimonial,
+.event-card {
+    border-radius: 50px;
+}
+
+.testimonials,
+.about .columns {
+    border-radius: 1500px 0 0 1500px;
+}
+
+.event-card img {
+    position: absolute;
+    border-radius: 25px;
+    max-width: 260px;
+    left: 30px;
+}
+
+.event-card {
+    transition: all 0.5s;
+}
+
+.event-card::after,
+.form::after {
+    background: url(../images/contact-dec-02.png);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 183px;
+    height: 149px;
+    content: "";
+}
+
+.event-card:hover {
+    box-shadow: 0px 0px 20px 0px #7b6ad83e;
+    transform: scale(1.01);
+}
+
+#Register .offer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #7a6ad8;
+    width: 80px;
+    padding: 8px;
+    height: 100%;
+    border-radius: 15px 60px 60px 15px;
+}
+
+#Register .special-offer {
+    border-radius: 15px;
+    max-width: 380px;
+}
+
+.input-search {
+    width: 230px;
+}
+
+.input-search form {
+    width: 100%;
+    padding: 0 10px 0 0;
+}
+
+.input-search input:focus,
+.input-search input:active,
+.input-search input {
+    box-shadow: none !important;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    padding: 0;
+}
+
+.input-search input::placeholder {
+    color: #fff;
+    font-size: 15px;
+}
+
+.input,
+.textarea {
+    border: none;
+    border-radius: 20px;
+}
+
+#Register .contact {
+    border-radius: 0 40px 40px 0;
+}
+
+.contact-us {
+    border-radius: 0 1500px 1500px 0;
+}
+
+.foot {
+    border-radius: 100px 100px 0 0;
+}
+
+#testimonial {
+    z-index: 0;
+}
+
+.navbar-end a.active {
+    background-color: #8879de;
+    border-radius: 40px;
+    transition: all 1.2s ease-out;
+}
+
+.about .columns,
+.testimonials {
+    padding: 50px 0;
+}
+
+.item .info-img .level-left {
+    padding-top: 50px;
+}
+
+#goToTop {
+    height: 50px;
+    width: 50px;
+    /* background-color: #7a6ad8; */
+    display: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    position: fixed;
+    bottom: 10px;
+    right: 30px;
+}
+
+#goToTop #inner {
+    height: 90%;
+    width: 90%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 5% auto;
+}
