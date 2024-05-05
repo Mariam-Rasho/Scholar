@@ -1,96 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="import" href="component.html" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
     <link rel="stylesheet" href="mystyle.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <link rel="stylesheet" href="css/owl.carousel.min.css" />
     <link rel="stylesheet" href="css/owl.theme.default.css" />
     <link rel="stylesheet" href="accordion/accordion.css" />
     <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="mobile.css"
-      media="screen and (max-width: 480px)"
-    />
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 480px)" />
     <title>Scholar</title>
-  </head>
+</head>
 
-  <body>
+<body>
     <!-- //START navbar -->
-    <nav
-      class="navbar is-fixed-top has-background-primary is-justify-content-space-between is-align-items-center py-3 px-6"
-      role="navigation "
-      aria-label="main navigation "
-    >
-      <!-- left-navbar:(logo,search) -->
-      <div
-        class="navbar-brand is-justify-content-space-between is-align-items-center"
-      >
-        <a
-          class="navbar-item has-text-white-ter is-size-3 has-text-weight-bold"
-          href="#"
-          class="logo"
-        >
+    <nav class="navbar is-fixed-top has-background-primary is-justify-content-space-between is-align-items-center py-3 px-6" role="navigation " aria-label="main navigation ">
+        <!-- left-navbar:(logo,search) -->
+        <div class="navbar-brand is-justify-content-space-between is-align-items-center">
+            <a class="navbar-item has-text-white-ter is-size-3 has-text-weight-bold" href="#" class="logo">
           SCHOLAR
         </a>
-        <div class="is-divider mr-3 my-auto has-background-white py-5"></div>
-        <!-- <div class="is-divider mr-3 my-auto has-background-white "></div> -->
-        <!-- search -->
-        <div
-          class="input input-search has-background-success is-justify-content-space-between"
-        >
-          <form
-            class="is-flex is-align-items-center justify-content-space-between"
-          >
-            <input
-              type="text "
-              placeholder="Type Something "
-              class="input has-background-success has-text-white is-primary is-small is-borderless"
-            />
-            <span
-              class="icon is-small is-right has-text-white has-background-success pl-2"
-            >
+            <div class="is-divider mr-3 my-auto has-background-white py-5"></div>
+            <!-- <div class="is-divider mr-3 my-auto has-background-white "></div> -->
+            <!-- search -->
+            <div class="input input-search has-background-success is-justify-content-space-between">
+                <form class="is-flex is-align-items-center justify-content-space-between">
+                    <input type="text " placeholder="Type Something " class="input has-background-success has-text-white is-primary is-small is-borderless" />
+                    <span class="icon is-small is-right has-text-white has-background-success pl-2">
               <i class="fas fa-magnifying-glass"></i>
             </span>
-          </form>
+                </form>
+            </div>
+            <a class="navbar-burger ml-0 has-text-white" id="burger">
+                <span class="is-size-2" aria-hidden="true "></span>
+                <span class="is-size-2" aria-hidden="true "></span>
+                <span class="is-size-2" aria-hidden="true "></span>
+            </a>
         </div>
-        <a class="navbar-burger ml-0 has-text-white" id="burger">
-          <span class="is-size-2" aria-hidden="true "></span>
-          <span class="is-size-2" aria-hidden="true "></span>
-          <span class="is-size-2" aria-hidden="true "></span>
-        </a>
-      </div>
-      <!-- right-navbar -->
-      <div
-        class="navbar-end has-background-primary navbar-menu has-paddingless-horizontal-mobile has-text-centered"
-        id="nav-links"
-      >
-        <a class="navbar-item has-text-white-ter active hero" href="# ">Home</a>
-        <a class="navbar-item has-text-white-ter Services" href="#Services "
-          >Services</a
+        <!-- right-navbar -->
+        <div class="navbar-end has-background-primary navbar-menu has-paddingless-horizontal-mobile has-text-centered" id="nav-links">
+            <a class="navbar-item has-text-white-ter active hero" href="# ">Home</a>
+            <a class="navbar-item has-text-white-ter Services" href="#Services ">Services</a
         >
         <a class="navbar-item has-text-white-ter Courses" href="#Courses "
           >Courses</a
         >
         <a class="navbar-item has-text-white-ter Team" href="#Team ">Team</a>
-        <a class="navbar-item has-text-white-ter Events" href="#Events "
-          >Events</a
+            <a class="navbar-item has-text-white-ter Events" href="#Events ">Events</a
         >
         <a class="navbar-item has-text-white-ter Register" href="#Register "
           >Register Now!</a
@@ -129,27 +92,20 @@
                   href="#"
                   >Request Demo
                 </a>
-                <a
-                  class="has-text-white-ter level-item is-size-5-mobile"
-                  href="#"
-                >
-                  <span
-                    class="button is-success is-inverted has-rounded is-size-5 p-4 mr-3"
-                  >
+            <a class="has-text-white-ter level-item is-size-5-mobile" href="#">
+                <span class="button is-success is-inverted has-rounded is-size-5 p-4 mr-3">
                     <i class="fa-solid fa-play is-size-6"></i>
-                  </span>
-                  What's the best result?
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="item column is-12">
+                  </span> What's the best result?
+            </a>
+        </div>
+        </div>
+        </div>
+        <div class="item column is-12">
             <div class="image">
-              <img src="banner-item-02.jpg" />
+                <img src="banner-item-02.jpg" />
             </div>
             <div class="info-img content is-large has-text-white">
-              <span class="tag is-primary is-medium is-uppercase is-rounded"
-                >best result</span
+                <span class="tag is-primary is-medium is-uppercase is-rounded">best result</span
               >
               <h1 class="title is-1 has-text-white is-size-6-mobile">
                 Get the best result out of your effort
@@ -174,19 +130,17 @@
                     class="button is-success is-inverted has-rounded is-size-5 p-4 mr-3"
                   >
                     <i class="fa-solid fa-play is-size-6"></i>
-                  </span>
-                  What's the best result?
+                  </span> What's the best result?
                 </a>
-              </div>
             </div>
-          </div>
-          <div class="item column is-12">
+        </div>
+        </div>
+        <div class="item column is-12">
             <div class="image">
-              <img src="banner-item-03.jpg" />
+                <img src="banner-item-03.jpg" />
             </div>
             <div class="info-img content is-large has-text-white">
-              <span class="tag is-primary is-medium is-uppercase is-rounded"
-                >Online Learning</span
+                <span class="tag is-primary is-medium is-uppercase is-rounded">Online Learning</span
               >
               <h1 class="title is-1 has-text-white is-size-6-mobile">
                 Online Learning helps you save the time
@@ -210,35 +164,25 @@
                     class="button is-success is-inverted has-rounded is-size-5 p-4 mr-3"
                   >
                     <i class="fa-solid fa-play is-size-6"></i>
-                  </span>
-                  What's the best result?
+                  </span> What's the best result?
                 </a>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
-    </section>
-    <!--END Hero Section -->
+        </div>
+        </div>
+        </div>
+        </section>
+        <!--END Hero Section -->
 
-    <!-- START Services -->
-    <section
-      id="Services"
-      class="cards section columns is-10 is-vcentered is-centered is-justify-content-space-evenly is-large pb-5"
-    >
-      <div
-        class="card column is-3 is-8-mobile is-flex has-background-light is-align-items-center is-shadowless my-6"
-      >
-        <div class="pl-4 content">
-          <h1 class="is-size-3 is-size-5-mobile mt-6 mr-6">Online Degrees</h1>
-          <p class="mt-4 mr-6">
-            Whenever you need free templates in HTML CSS, you just remember
-            TemplateMo website.
-          </p>
-          <a
-            class="button is-rounded is-success is-outlined px-5 my-3"
-            href="#"
-          >
+        <!-- START Services -->
+        <section id="Services" class="cards section columns is-10 is-vcentered is-centered is-justify-content-space-evenly is-large pb-5">
+            <div class="card column is-3 is-8-mobile is-flex has-background-light is-align-items-center is-shadowless my-6">
+                <div class="pl-4 content">
+                    <h1 class="is-size-3 is-size-5-mobile mt-6 mr-6">Online Degrees</h1>
+                    <p class="mt-4 mr-6">
+                        Whenever you need free templates in HTML CSS, you just remember TemplateMo website.
+                    </p>
+                    <a class="button is-rounded is-success is-outlined px-5 my-3" href="#">
             Read More</a
           >
         </div>
@@ -407,36 +351,26 @@
           <ul class="tabs-filter">
             <li>
               <a href="#all"> Show All </a>
-            </li>
-            <li>
-              <a href="#wd">Webdesign</a>
-            </li>
-            <li>
-              <a class="is-size-6-mobile" href="#dev">Development</a>
-            </li>
-            <li>
-              <a href="#wp">Wordpress</a>
-            </li>
-          </ul>
-        </div>
-        <div id="all">
-          <div class="content columns is-multiline is-centered is-vcentered">
-            <div
-              class="column is-3 has-background-light p-0 course m-3 is-relative"
-            >
-              <div class="image">
-                <img
-                  class="is-4by3"
-                  src="images/course-01.jpg"
-                  alt="Placeholder image"
-                />
-              </div>
-              <div
-                class="course-info columns is-justify-content-space-between is-vcentered is-mobile"
-              >
-                <span
-                  class="cource-name has-text-primary column is-4 has-background-light p-0"
-                  >WEBDESIGN</span
+                    </li>
+                    <li>
+                        <a href="#wd">Webdesign</a>
+                    </li>
+                    <li>
+                        <a class="is-size-6-mobile" href="#dev">Development</a>
+                    </li>
+                    <li>
+                        <a href="#wp">Wordpress</a>
+                    </li>
+                    </ul>
+                </div>
+                <div id="all">
+                    <div class="content columns is-multiline is-centered is-vcentered">
+                        <div class="column is-3 has-background-light p-0 course m-3 is-relative">
+                            <div class="image">
+                                <img class="is-4by3" src="images/course-01.jpg" alt="Placeholder image" />
+                            </div>
+                            <div class="course-info columns is-justify-content-space-between is-vcentered is-mobile">
+                                <span class="cource-name has-text-primary column is-4 has-background-light p-0">WEBDESIGN</span
                 >
                 <span
                   class="price-cource has-text-weight-bold column is-two-quarter is-narrow is-size-3 has-text-white has-background-primary p-5"
@@ -1008,18 +942,14 @@
     <section class="section is-medium pb-2" id="Events">
       <div class="has-text-centered has-text-weight-bold mb-6">
         <span class="has-text-primary">SCHEDULE</span>
-        <div class="title is-size-2">Upcoming Events</div>
-      </div>
-      <div class="events columns is-multiline is-centered">
-        <div class="column is-11 mb-6">
-          <div
-            class="event-card is-relative p-6 columns is-vcentered has-background-light is-centered is-justify-content-space-evenly"
-          >
-            <img class="column is-3" src="images/event-01.jpg" />
-            <div class="column is-3 is-offset-3 p-0">
-              <span
-                class="cource-name has-background-white has-text-primary py-2 px-4"
-                >WEB DESIGN</span
+                                <div class="title is-size-2">Upcoming Events</div>
+                            </div>
+                            <div class="events columns is-multiline is-centered">
+                                <div class="column is-11 mb-6">
+                                    <div class="event-card is-relative p-6 columns is-vcentered has-background-light is-centered is-justify-content-space-evenly">
+                                        <img class="column is-3" src="images/event-01.jpg" />
+                                        <div class="column is-3 is-offset-3 p-0">
+                                            <span class="cource-name has-background-white has-text-primary py-2 px-4">WEB DESIGN</span
               >
               <h4 class="mt-4 has-text-weight-semibold is-size-4">
                 UI Best Practices
@@ -1027,27 +957,23 @@
             </div>
             <div class="column is-2">
               <span>Date:</span>
-              <h4 class="has-text-primary has-text-weight-bold">16 Feb 2024</h4>
-            </div>
-            <div class="column is-2">
-              <span>Duration:</span>
-              <h4 class="has-text-primary has-text-weight-bold">22 Hours</h4>
-            </div>
-            <div class="column is-2">
-              <span>Price:</span>
-              <h4 class="has-text-primary has-text-weight-bold">$120</h4>
-            </div>
-          </div>
-        </div>
-        <div class="column is-11 mb-6">
-          <div
-            class="event-card is-relative p-6 columns is-vcentered has-background-light is-centered is-justify-content-space-evenly"
-          >
-            <img class="column is-3" src="images/event-02.jpg" />
-            <div class="column is-3 is-offset-3 p-0">
-              <span
-                class="cource-name has-background-white has-text-primary py-2 px-4"
-                >FRONT END</span
+                                            <h4 class="has-text-primary has-text-weight-bold">16 Feb 2024</h4>
+                                        </div>
+                                        <div class="column is-2">
+                                            <span>Duration:</span>
+                                            <h4 class="has-text-primary has-text-weight-bold">22 Hours</h4>
+                                        </div>
+                                        <div class="column is-2">
+                                            <span>Price:</span>
+                                            <h4 class="has-text-primary has-text-weight-bold">$120</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="column is-11 mb-6">
+                                    <div class="event-card is-relative p-6 columns is-vcentered has-background-light is-centered is-justify-content-space-evenly">
+                                        <img class="column is-3" src="images/event-02.jpg" />
+                                        <div class="column is-3 is-offset-3 p-0">
+                                            <span class="cource-name has-background-white has-text-primary py-2 px-4">FRONT END</span
               >
               <h4 class="mt-4 has-text-weight-semibold is-size-4">
                 New Design Trend
@@ -1055,27 +981,23 @@
             </div>
             <div class="column is-2">
               <span>Date:</span>
-              <h4 class="has-text-primary has-text-weight-bold">16 Feb 2024</h4>
-            </div>
-            <div class="column is-2">
-              <span>Duration:</span>
-              <h4 class="has-text-primary has-text-weight-bold">30 Hours</h4>
-            </div>
-            <div class="column is-2">
-              <span>Price:</span>
-              <h4 class="has-text-primary has-text-weight-bold">$320</h4>
-            </div>
-          </div>
-        </div>
-        <div class="column is-11 mb-6">
-          <div
-            class="event-card is-relative p-6 columns is-vcentered has-background-light is-centered is-justify-content-space-evenly"
-          >
-            <img class="column is-3" src="images/event-03.jpg" />
-            <div class="column is-3 is-offset-3 p-0">
-              <span
-                class="cource-name has-background-white has-text-primary py-2 px-4"
-                >FULL STACK</span
+                                            <h4 class="has-text-primary has-text-weight-bold">16 Feb 2024</h4>
+                                        </div>
+                                        <div class="column is-2">
+                                            <span>Duration:</span>
+                                            <h4 class="has-text-primary has-text-weight-bold">30 Hours</h4>
+                                        </div>
+                                        <div class="column is-2">
+                                            <span>Price:</span>
+                                            <h4 class="has-text-primary has-text-weight-bold">$320</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="column is-11 mb-6">
+                                    <div class="event-card is-relative p-6 columns is-vcentered has-background-light is-centered is-justify-content-space-evenly">
+                                        <img class="column is-3" src="images/event-03.jpg" />
+                                        <div class="column is-3 is-offset-3 p-0">
+                                            <span class="cource-name has-background-white has-text-primary py-2 px-4">FULL STACK</span
               >
               <h4 class="mt-4 has-text-weight-semibold is-size-4">
                 Web Programming
@@ -1083,39 +1005,36 @@
             </div>
             <div class="column is-2">
               <span>Date:</span>
-              <h4 class="has-text-primary has-text-weight-bold">16 Feb 2024</h4>
-            </div>
-            <div class="column is-2">
-              <span>Duration:</span>
-              <h4 class="has-text-primary has-text-weight-bold">48 Hours</h4>
-            </div>
-            <div class="column is-2">
-              <span>Price:</span>
-              <h4 class="has-text-primary has-text-weight-bold">$440</h4>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- END EVENTS -->
+                                            <h4 class="has-text-primary has-text-weight-bold">16 Feb 2024</h4>
+                                        </div>
+                                        <div class="column is-2">
+                                            <span>Duration:</span>
+                                            <h4 class="has-text-primary has-text-weight-bold">48 Hours</h4>
+                                        </div>
+                                        <div class="column is-2">
+                                            <span>Price:</span>
+                                            <h4 class="has-text-primary has-text-weight-bold">$440</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        </section>
+        <!-- END EVENTS -->
 
-    <!-- START REGISTER -->
-    <section class="section is-medium pl-0" id="Register">
-      <div class="has-background-light columns is-vcentered contact-us">
-        <div class="container contact column is-6 mb-0 py-6">
-          <span class="is-size-4 has-text-primary py-3">Contact Us</span>
-          <h2 class="is-size-1 is-size-4-mobile">
-            Feel free to contact us anytime
-          </h2>
-          <p class="py-6">
-            Thank you for choosing our templates. We provide you best CSS
-            templates at absolutely 100% free of charge. You may support us by
-            sharing our website to your friends.
-          </p>
-          <div class="special-offer has-background-white is-relative pl-6 py-4">
-            <div class="offer has-text-white is-uppercase is-size-4" `>
-              <span
-                >off<br />
+        <!-- START REGISTER -->
+        <section class="section is-medium pl-0" id="Register">
+            <div class="has-background-light columns is-vcentered contact-us">
+                <div class="container contact column is-6 mb-0 py-6">
+                    <span class="is-size-4 has-text-primary py-3">Contact Us</span>
+                    <h2 class="is-size-1 is-size-4-mobile">
+                        Feel free to contact us anytime
+                    </h2>
+                    <p class="py-6">
+                        Thank you for choosing our templates. We provide you best CSS templates at absolutely 100% free of charge. You may support us by sharing our website to your friends.
+                    </p>
+                    <div class="special-offer has-background-white is-relative pl-6 py-4">
+                        <div class="offer has-text-white is-uppercase is-size-4" `>
+                            <span>off<br />
                 50%</span
               >
             </div>
@@ -1171,8 +1090,8 @@
           <p class="column">
             Copyright © 2023 Scholar Organization. All rights reserved.
             &nbsp;&nbsp;&nbsp; Design:
-            <a href="https://templatemo.com" rel="nofollow" target="_blank"
-              >TemplateMo</a
+            <a href="https://github.com/Mariam-Rasho/" rel="nofollow" target="_blank"
+              >MARIAM RASHO</a
             >
           </p>
         </div>
