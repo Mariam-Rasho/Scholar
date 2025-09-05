@@ -10,10 +10,23 @@
   overflow: hidden;
 }
 
-.hero-body {
-  border-bottom-right-radius: 100px;
+.navbar-end {
+  background-color: #2b0dd001  !important;
+  box-shadow: none !important;
 }
 
+.hero-body {
+  border-bottom-right-radius: 100px;
+  padding: 0  auto!important;
+}
+
+.tag {
+  font-size: 0.75rem !important;
+}
+
+.is-fullheight {
+  min-height: 80% !important;
+}
 .owl-prev span,
 .owl-next span {
   width: 41px;
@@ -23,7 +36,12 @@
 }
 
 .item .info-img .level-left {
-  padding-top: 7px;
+  padding-top: 1.5rem;
+
+  a:first-child {
+    width: 50% !important;
+  }
+
 }
 
 .input-search {
@@ -41,22 +59,37 @@
   max-width: 100vw;
 }
 
+#Courses .title {
+  /* font-size: 2.5rem !important; */
+}
+
+.tesrimonial-card {
+  padding: 1rem !important;
+}
+
+.tabs {
+  margin: 1rem 1rem !important;
+}
+
 .hero-body .item .image img,
 .hero-body .item .image img .info-img {
   height: 70vh;
   width: 100vw;
+
 }
 
 .info-img {
   position: absolute;
   width: 70%;
-  top: 10%;
+  top: 6rem;
+  left: 1.5rem;
 }
 
 .owl-nav {
   transform: rotate(0deg);
-  right: 32%;
+  right: 50%;
   bottom: 33px;
+  transform: translateX(51px);
 }
 
 .owl-prev span,
@@ -75,34 +108,53 @@
   margin: 10px auto;
 }
 
-#Services .card,
 #about-us,
 .about .columns {
-  margin: 70px auto;
+  margin: 0px auto;
+  >h2 {
+    margin-top: 1rem !important;
+  }
 }
 
 .abt-accord {
   margin: 0 auto;
+  padding-inline: 1rem !important;
 }
 
 .cards .card-image {
-  left: 108px;
-  bottom: 78%;
-  width: 124px;
+  /* left: 55%;
+  bottom: 75%;
+  width: 124px; */
+  right: -12% !important;
+  top: -15%;
+  width: 150px;
   padding: 40px !important;
+  .image {
+    width: 60px !important;
+  }
 }
 
 .cards-team .card,
 .teams {
-  margin: 150px auto;
+  margin: 1rem auto;
 }
 
-.testimonials,
 .events,
 .contact-us {
   border-radius: 50px;
+  padding: 0.5rem;
+  margin: 0 1rem !important;
+}
+
+.testimonials {
+  border-radius: 50px;
   padding: 0;
-  margin: 0 auto;
+  width: 92%;
+  margin: auto !important;
+
+    @media screen and (max-width: 768px){
+       padding: 1rem 0.75rem 0.75rem !important;
+    }
 }
 
 .item {
@@ -116,8 +168,8 @@
 
 .event-card img {
   max-width: 200px;
-  left: 38%;
-  top: 52%;
+  left: 35%;
+  top: 45%;
 }
 
 .progress-circle {
@@ -135,5 +187,81 @@
 }
 
 .testimonials .content {
-  padding-top: 50px !important;
+  padding-top: 30px !important;
+}
+
+.media-left .image {
+  width: 80px !important;
+  height: 80px !important;
+}
+
+.media-content {
+  margin-left: 1rem !important;
+}
+
+.content {
+  overflow: hidden !important;
+}
+
+#courses .columns {
+  margin: 0 !important;
+}
+
+.is-10-mobile {
+  margin: 0rem auto 1rem !important;
+}
+
+#Services .is-11-mobile {
+    margin: 4rem auto !important;
+}
+
+#all, #wd, #wp, #dev {
+  .columns:first-child {
+      margin:auto  !important;
+  } 
+}
+
+.foot {
+    border-radius: 50px 50px 0 0;
+    .columns  {
+      margin: 3rem 0;
+
+    }
+}
+
+.cource-name {
+  font-size: 0.75rem;
+}
+
+.course .course-info .price-cource {
+  font-size: 0.875rem !important;
+  /* padding: 1rem 1.75rem 1rem 1rem !important; */
+  padding: 0.875rem 1.5rem 0.875rem 0.875rem  !important;
+
+  em {
+    font-size: 0.75rem !important;
+  }
+}
+
+.counter-up >div{
+  padding: 2rem 0 !important;
+  width: 85%;
+}
+
+.counter-up {
+  font-size: 1rem !important;
+  border-radius: 0 80% 80% 0;
+  width: 85%;
+}
+
+.cards-team .card {
+ width: 95%;
+}
+
+#Team {
+  padding: 4rem 1rem !important;
+
+  .card:last-child {
+    margin-bottom: 4rem !important;
+  }
 }

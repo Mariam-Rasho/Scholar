@@ -1650,7 +1650,7 @@ a.box:active {
   line-height: 1.125;
 }
 .content h1 {
-  font-size: 2em;
+  font-size: 1.5rem;
   margin-bottom: 0.5em;
 }
 .content h1:not(:first-child) {
@@ -8799,7 +8799,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
     font-size: 1.5rem !important;
   }
   .is-size-5-mobile {
-    font-size: 1.25rem !important;
+    font-size: 1rem !important;
   }
   .is-size-6-mobile {
     font-size: 1rem !important;
@@ -10201,7 +10201,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   min-height: 50vh;
 }
 .hero.is-fullheight {
-  min-height: 100vh;
+  /* min-height: 100vh; */
 }
 
 .hero-video {
