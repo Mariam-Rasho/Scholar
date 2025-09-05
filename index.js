@@ -45,8 +45,12 @@ window.addEventListener("scroll", () => {
 
     navLi.forEach((li) => {
         li.classList.remove("active");
+        
         if (li.classList.contains(current)) {
             li.classList.add("active");
+            setTimeout(() => {
+                navbarMenue.classList.remove('is-active');
+            }, 1500)
         }
     });
 });
